@@ -33,10 +33,10 @@ body {
 
 .projects {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;  /* Stack children vertically */
   gap: 1rem;
   padding: 2rem;
-  justify-content: center;
+  align-items: center;  /* Center the cards horizontally */
 }
 
 .project-card {
